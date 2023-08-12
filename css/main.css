@@ -1992,6 +1992,11 @@ input::-moz-focus-inner {
     border-radius: 2px;
 }
 
+.home-content__buttons .primary_btn img {
+    width: 32px;
+    height: 32px;
+}
+
 .home-content__buttons .btn {
     border-color: #FFFFFF;
     color: #FFFFFF;
@@ -2363,6 +2368,23 @@ html.no-csstransitions .home-content__main {
     .home-content__buttons .btn {
         width: auto;
         margin: 1.5rem 0 0 0;
+    }
+
+
+    .home-content__buttons .primary_btn {
+        display: inline-flex;
+        gap: 16px;
+        align-items: center;
+        padding: 12px;
+        height: 48px;
+        font-size: 12px;
+        font-weight: normal;
+        border-radius: 2px;
+    }
+
+    .home-content__buttons .primary_btn img {
+        width: 24px;
+        height: 24px;
     }
 
     .home-social {
