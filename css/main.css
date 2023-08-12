@@ -1964,6 +1964,11 @@ input::-moz-focus-inner {
     color: #FFFFFF;
 }
 
+.home-content h1 .highlight {
+    color: #E83F3F;
+    text-decoration: underline;
+}
+
 .home-content__main {
     padding-top: 24rem;
     position: relative;
