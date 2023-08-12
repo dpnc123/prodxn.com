@@ -1980,8 +1980,12 @@ input::-moz-focus-inner {
 }
 
 .home-content__buttons .primary_btn {
+    display: inline-flex;
+    gap: 8px;
     background-color: #FFFFFF !important;
     color: #303030 !important;
+    padding: 16px;
+    height: 64px;
 }
 
 .home-content__buttons .btn {
