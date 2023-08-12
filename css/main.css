@@ -1981,11 +1981,15 @@ input::-moz-focus-inner {
 
 .home-content__buttons .primary_btn {
     display: inline-flex;
-    gap: 8px;
+    gap: 16px;
+    align-items: center;
     background-color: #FFFFFF !important;
     color: #303030 !important;
     padding: 16px;
     height: 64px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 2px;
 }
 
 .home-content__buttons .btn {
